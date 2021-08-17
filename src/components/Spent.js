@@ -8,7 +8,7 @@ import {AppContext} from '../context/AppContext'
         }, 0)
         return (
 
-            <div className ='container bg-success py-4 rounded'>
+            <div className ='container bg-info py-4 rounded'>
                 <span className='text-white'> Spent so far: ${totalExpenses}</span>
             </div>
         )
