@@ -41,9 +41,9 @@ const AddExpenseForm = () => {
                      ></input>
                 </div>
                  <div className='col-sm'>
-                     <label for='cost'>Cost</label> 
+                     <label for='cost '>Cost</label> 
                      <input required='required'
-                     type='text'
+                     type='number'
                      className='form-control'
                      id='cost'
                      value={cost}
