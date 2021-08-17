@@ -12,8 +12,8 @@ const App = () => {
     return (
       <AppProvider>
 
-           <div className ="container">
-            <h1 className="mt-3"> My Budget Planner</h1>
+           <div className ="container bg-primary">
+            <h1 className="mt-3 text-white display-3 text-center">Financial Planner</h1>
             <div className= 'row mt-3'>
               <div className= 'col-sm'>
                 <Budget />
@@ -37,6 +37,9 @@ const App = () => {
                 <AddExpenseForm />
               </div>
             </div>
+          </div>
+          <div> 
+            
           </div>
       </AppProvider>
     

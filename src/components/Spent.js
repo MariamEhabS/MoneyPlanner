@@ -8,8 +8,8 @@ import {AppContext} from '../context/AppContext'
         }, 0)
         return (
 
-            <div className ='alert alert-warning'>
-                <span> Spent so far: ${totalExpenses}</span>
+            <div className ='container bg-success py-4 rounded'>
+                <span className='text-white'> Spent so far: ${totalExpenses}</span>
             </div>
         )
     }

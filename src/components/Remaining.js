@@ -10,10 +10,10 @@ const Remaining = () => {
     }, 0)
 
 
-    const alertType = totalExpenses > budget ? 'alert-danger' : 'alert-success'
+    const alertType = totalExpenses > budget ? 'bg-danger' : 'bg-warning'
     return (
-    <div className = {`alert ${alertType}`}>
-        <span>Remaining: ${budget - totalExpenses}</span>
+    <div className = {`container bg-warning rounded ${alertType} py-4`}>
+        <span className='text-white'>Remaining: ${budget - totalExpenses}</span>
     </div>
 
 )}  
